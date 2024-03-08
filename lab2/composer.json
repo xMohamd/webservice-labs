@@ -1,0 +1,19 @@
+{
+  "name": "php/lab2",
+  "autoload": {
+    "files": [
+      "config.php"
+    ],
+    "classmap": [
+      "Models"
+    ]
+  },
+  "require": {
+    "illuminate/database": "^5.5"
+  },
+  "config": {
+    "allow-plugins": {
+      "kylekatarnls/update-helper": true
+    }
+  }
+}
